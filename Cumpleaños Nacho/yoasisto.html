@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de asistencia</title>
+    <style>
+        a{
+            text-decoration: none; 
+            font-size: xx-large;
+            color: #F9EA37 ;
+            background-color: #007CA7;
+            border: #0093A7 solid 2px;
+        }
+        a:hover{
+            background-color: #0049B7 ;
+        }
+        h1{
+           background-color: #007CA7 ;
+           padding: 15px;
+           border: solid black 1.5px;
+        }
+        fieldset{
+            border: black solid 1px;
+            background-color: white;
+        }
+        legend{
+            border: black solid 1px;
+            background-color: white;
+        }
+    </style>
+</head>
+
+
+<body bgcolor="#00DDFF">
+    <h1>Yo quiero asistir!:</h1>
+    <form method="post">
+        <fieldset>
+            <legend> Datos requeridos: </legend>
+<label for="nombre">Nombre : </label>
+<input type="text" id="nombre" placeholder="Nombre completo" required><br>
+<br>
+<label for="apellido">Apellido : </label>
+<input type="text" id="apellido" placeholder="Apellido completo" required="true"><br>
+<br>
+<label for="edad">Edad : </label>
+<input type="number" id="edad" required><br>
+<br>
+<label>Genero : </label>
+<label for="masculino">Masculino</label>
+<input type="radio" id="masculino" name="genero" value="masculino" required>
+<label for="femenino">Femenino</label>
+<input type="radio" id="femenino" name="genero" value="femenino"><br>
+<br>
+<label for="emal">Email : </label>
+<input type="email" id="email" placeholder="Ingresa tu mail" required="true">
+
+<input type="submit" value="Enviar">
+</fieldset>
+    </form>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+    <a href="../Cumpleaños Nacho/index.html">Inicio</a>
+</body>
+</html>
